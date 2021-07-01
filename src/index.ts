@@ -7,7 +7,7 @@ const app = express()
 
 app.use('/', (req, res) => {
   res.status(200)
-    .send('Welcom to ts-short-url')
+    .send('Welcome to ts-short-url')
 })
 
 app.listen(PORT, () => {
