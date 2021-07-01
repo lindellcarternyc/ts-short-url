@@ -23,7 +23,11 @@
   },
   "homepage": "https://github.com/lindellcarternyc/ts-short-url#readme",
   "devDependencies": {
+    "@types/express": "^4.17.12",
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
